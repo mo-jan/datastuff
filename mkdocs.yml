@@ -1,19 +1,13 @@
 site_name: Datastuff
 
-repo_url: https://github.com/mo-jan/datastuff
-
 nav:
-    - Home: 'index.md'
+    - Home:                         'index.md'
     - 'Projects':
-      - 'Zürich traffic flows': 'zurich-traffic-flows'
-      - 'gdocs exporter': 'gdocs-exporter'
+      - 'Zürich traffic flows':     'projects/zurich-traffic-flows.md'
+      - 'gdocs exporter':           'projects/gdocs-exporter.md'
     - 'About':
-      - 'License': 'license.md'
-      - 'Me': 'me'
+      - 'License':                  'about/license.md'
+      - 'Me':                       'about/me.md'
 
 theme:
-    name: mkdocs
-    highlightjs: true
-    hljs_languages:
-        - yaml
-        - rust
+    name: gitbook
